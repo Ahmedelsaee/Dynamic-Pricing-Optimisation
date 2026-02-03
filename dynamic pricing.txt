@@ -1,0 +1,29 @@
+number of riders (int) ------> demand(الطلب)
+number of drivers ( ------> supply(العرض)
+
+supply demand factor=number of riders(demand) / number od drivers(supply) (هنزود 1 علي المقام علشان نتجنب انه يقسم علي الصفر)
+demand pressure=number of riders - number of drivers
+drivers availability ratio=number of drivers / number of riders
+=============================================================================
+location category (object) -----> encoding
+
+=============================================================================
+Customer_Loyalty_Status (object) -------> encoding
+
+=============================================================================
+Number_of_Past_Rides (int64) ------>  
+
+=============================================================================
+Average_Ratings (float64) ----->    
+
+=============================================================================
+Time_of_Booking (object) ------> encoding    
+
+=============================================================================
+Vehicle_Type (object) -------> encoding     
+
+=============================================================================
+Expected_Ride_Duration (int64) ------> 
+
+=============================================================================       
+Historical_Cost_of_Ride (float64) (Target) ------>   
